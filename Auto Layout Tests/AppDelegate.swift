@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Auto Layout Tests
+//  Multiple Choice Quiz
 //
-//  Created by Jackson Taylor on 21/08/2016.
+//  Created by Jackson Taylor on 20/08/2016.
 //  Copyright © 2016 Jackson Taylor. All rights reserved.
 //
 

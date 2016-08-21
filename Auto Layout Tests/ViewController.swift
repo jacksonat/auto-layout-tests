@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Auto Layout Tests
+//  Multiple Choice Quiz
 //
-//  Created by Jackson Taylor on 21/08/2016.
+//  Created by Jackson Taylor on 20/08/2016.
 //  Copyright © 2016 Jackson Taylor. All rights reserved.
 //
 
@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    // Remove navigation bar from root view controller
+    override func viewWillAppear(animated: Bool) {
+        
+        super.viewWillAppear(true)
+        
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        
     }
 
     override func didReceiveMemoryWarning() {
